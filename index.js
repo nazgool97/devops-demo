@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from DevOps demo!' });
+  res.json({ message: 'Hello from AUTO-DEPLOYED DevOps demo!' });
 });
 
 app.listen(PORT, () => console.log(`Server on ${PORT}`));
